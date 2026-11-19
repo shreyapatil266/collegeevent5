@@ -1,28 +1,32 @@
+
 body {
-    background-color: lightblue;
-    font-family: Arial, sans-serif;
+    font-family: Arial;
     text-align: center;
+    background: #f4f4f4;
+    margin: 20px;
 }
 
 h1 {
-    color: darkblue;
-    font-size: 30px;
+    background: #222;
+    color: orange;
+    padding: 20px;
+}
+
+h2 {
+    color: #b8860b;
 }
 
 p {
-    color: black;
-    font-size: 18px;
+    color: #333;
+}
+
+input, button {
+    padding: 10px;
+    margin: 5px;
 }
 
 button {
-    background-color: blue;
-    color: white;
-    padding: 10px 20px;
+    background: orange;
     border: none;
-    border-radius: 5px;
     cursor: pointer;
-}
-
-button:hover {
-    background-color: darkblue;
 }
